@@ -34,10 +34,6 @@ func main() {
 	fmt.Println(string(abbr))
 }
 
-// ┌─────────────────────────────────┐
-// │ не меняйте код ниже этой строки │
-// └─────────────────────────────────┘
-
 // readString читает строку из `os.Stdin` и возвращает ее
 func readString() string {
 	rdr := bufio.NewReader(os.Stdin)

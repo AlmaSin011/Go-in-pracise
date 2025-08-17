@@ -1,0 +1,80 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.coverprofile
+coverage.out
+
+# Built application files
+/build/
+bin/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories (remove the comment if you store vendor in repo)
+# vendor/
+
+# Go workspace and module files
+go.work
+go.work.sum
+
+# Module cache (optional — usually outside repo)
+# GOMODCACHE can be outside project; ignore typical vendor/cache names
+GOMODCACHE
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# JetBrains Rider/GoLand
+.idea/
+out/
+*.ipr
+
+# Vim swap/temp files
+.*.swp
+*.swo
+
+# Emacs
+*~
+
+# JetBrains local history, caches
+.idea/
+*.iws
+/.idea/*
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Generated files (protobuf, swagger, mockgen, etc.)
+**/generated/*
+**/gen_*
+**/*_gen.go
+**/*_mock.go
+
+# Test outputs and coverage
+testdata/
+*.cover
+coverage/
+profile.out
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Secrets (if yo
